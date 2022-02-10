@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>Online form </title>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  input[type="submit"]{
+    background-color: aqua;
+    padding: 10px 5px 2px 20px;
+    border: 5px solid black;
+    /* margin: 10px 5px 2px 20px; */
+  }
+</style>
+</head>
+<body style="border: 5px solid black; background-color:Orange;">
+<fieldset>
+<legend> Form </Legend>
+
+<h1 style="color:DodgerBlue;">
+
+
+STUDENT FORM </h1>
+
+Name - <input type="text" value="" max=20 >
+<br>
+<hr>
+<br>
+Address - <textarea row="10" col="20">
+</textarea>
+<br>
+<hr>
+<br>
+Gender -
+<input type="radio" name="e1" value="Male"> Male
+<input type="radio" name="e1" value="Female"> Female
+<br>
+<hr>
+<br>
+
+Qualification -
+<input type="radio" name="r1" value="MCA"> MCA
+<input type ="radio" name="r1" value="Bsc">Bsc
+<input type ="radio" name="r1" value="BCA">BCA
+<br>
+<hr>
+<br>
+Hobbies -  <input type ="checkbox" name="c1" value="Reading">Reading
+        <input type ="checkbox" name="c1" value="Dancing">Dancing
+        <input type ="checkbox" name="c1" value="Gaming">Gaming
+<br>
+<hr>
+<br>
+City - <Select name="City">
+    <option>Select</option>
+    <option>Indore</option>
+    <option>Bhopal</option>
+    <option>Gwalior</option>
+    <option>Morena</option>
+  </select>
+<br>
+<hr>
+<br>
+<input type="Submit" onclick="alert('Your Form Has Been Submitted Successfully')" value="SUBMIT"class="btn" id="btn"  onmouseout="hoverout()" onmouseover="hover()">
+<input type="Reset" onclick="alert('Your Form Has Been Reset Successfully')"  value="RESET"class="btn2" id="btn"  onmouseout="hoverout()" onmouseover="hover()">
+</fieldset>
+
+<br>
+	<br>
+	<a style="font-size: 20px;" href="/Lab1/index.html">Lab 1</a>
+<br>
+<a style="font-size: 20px;" href="/Lab2/index.html">Lab 2</a>
+<br>
+<a style="font-size: 20px;" href="/Lab3/index.html">Lab 3</a>
+<br>
+<a style="font-size: 20px;" href="/Lab4/css.html">Lab 4</a>
+
+
+</body>
+
+    <style>
+        #btn{
+            background-color: aqua;
+            padding: 10px;
+            border: 5px ;
+        }
+
+        #btn:hover{
+            background-color: bisque;
+        }
+
+        
+    </style>
+
+    
+</html>
